@@ -1,0 +1,107 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* gap: 50px; */
+
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    width: 60px;
+    height: 100vh;
+    background-color: #4e4139;
+
+
+}
+
+.menu_button {
+    border: none;
+    background: none;
+    cursor: pointer;
+
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 1fr 8fr 1fr;
+
+
+    background-color: #4e4139;
+    
+    height: 100vh;
+    width: 50vw;
+
+}
+
+.panelClosed {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    
+    background-color: #4e4139;
+    
+    height: 100vh;
+    width: 7vh;
+
+}
+
+.burgerMenu {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.storyText {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+    color: white;
+}
+
+.storyInput {
+    
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+
+    display: flex;
+    justify-content: center;
+}
+
+.storyInputBox {
+    
+    width: 80%;
+    border-radius: 8px;
+    margin: 10px;
+
+    background-color: antiquewhite;
+}
